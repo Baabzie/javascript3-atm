@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <h1>ATM-App</h1>
       <button onClick={() => {setShowATM((prevState) => !prevState)}}>{showATM ? "Hide ATM" : "Show ATM"}</button>
+      <br/>
       {showATM && <ATM/>}
     </div>
   );
